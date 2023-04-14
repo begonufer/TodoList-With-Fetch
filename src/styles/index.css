@@ -10,3 +10,66 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+body {
+    margin-top: 100px;
+    background-color: rgba(177, 160, 170, 0.155);
+    font-family: Quicksand;
+}
+
+ul { 
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    list-style: none;
+    padding: 9px 45px;
+}
+
+h1 {
+    color: rgba(188, 143, 143, 0.612);
+    text-align: center;
+    font-family: Quicksand;
+    font-size:500%;
+    margin-bottom: 40px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+#itemCounter {
+    font-family: Quicksand;
+    font-size: smaller;
+    color:rgb(174, 173, 173);
+}
+
+#Block {
+    width: 40%;
+}
+
+.paginita {
+    width: 40%;
+}
+
+i {
+    align-self: center;
+    visibility: hidden;
+    color: rgba(188, 143, 143, 0.612);
+    font-size:150%;
+}
+
+li:hover i {
+    visibility: visible;
+}
+
+p {
+    padding-top: 12px;
+}
